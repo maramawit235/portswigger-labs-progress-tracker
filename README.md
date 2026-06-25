@@ -1,17 +1,17 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-19-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--06--25-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-6.9%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-18-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--06--25-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-6.6%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 5 of 61
-- **Practitioner**: 14 of 174
+- **Practitioner**: 13 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
 
-- **Authentication vulnerabilities**: 5/14 lab
+- **Authentication vulnerabilities**: 4/14 lab
 - **SQL injection**: 14/18 lab
 - **Access control**: 0/13 lab
 
@@ -52,4 +52,3 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 16 | 2026-06-25 | Authentication vulnerabilities | 2FA simple bypass                                                             | Apprentice   | N/A          |
 | 17 | 2026-06-25 | Authentication vulnerabilities | Password reset broken logic                                                  | Apprentice   | N/A          |
 | 18 | 2026-06-25 | Authentication vulnerabilities | Username enumeration via subtly different responses                           | Practitioner | N/A          |
-| 19 | 2026-06-25 | Authentication vulnerabilities | Username enumeration via response timing                                      | Practitioner | N/A          |
