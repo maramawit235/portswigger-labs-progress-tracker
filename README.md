@@ -1,18 +1,19 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-23-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--06--28-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-8.4%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-26-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--01-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-9.5%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 5 of 61
-- **Practitioner**: 18 of 174
+- **Apprentice**: 6 of 61
+- **Practitioner**: 20 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
 
 - **Authentication vulnerabilities**: 9/14 lab
 - **SQL injection**: 14/18 lab
+- **Path traversal**: 3/15 lab
 - **Access control**: 0/13 lab
 
 ## Notes
@@ -57,3 +58,6 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 21 | 2026-06-28 | Authentication vulnerabilities | Username enumeration via account lock                                         | Practitioner | N/A          |
 | 22 | 2026-06-28 | Authentication vulnerabilities | 2FA broken logic                                                              | Practitioner | N/A          |
 | 23 | 2026-06-28 | Authentication vulnerabilities | Brute-forcing a stay-logged-in cookie                                         | Practitioner | N/A          |
+| 24 | 2026-07-01 | Path traversal                | File path traversal, simple case                                              | Apprentice   | N/A          |
+| 25 | 2026-07-01 | Path traversal                | File path traversal, traversal sequences stripped non-recursively             | Practitioner | N/A          |
+| 26 | 2026-07-01 | Path traversal                | File path traversal, traversal sequences stripped recursively                 | Practitioner | N/A          |
