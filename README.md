@@ -1,20 +1,20 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-26-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--01-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-9.5%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-34-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--02-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-12.4%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 6 of 61
-- **Practitioner**: 20 of 174
+- **Apprentice**: 7 of 61
+- **Practitioner**: 27 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
 
 - **Authentication vulnerabilities**: 9/14 lab
 - **SQL injection**: 14/18 lab
-- **Path traversal**: 3/15 lab
-- **Access control**: 0/13 lab
+- **Path traversal**: 6/15 lab
+- **OS command injection**: 5/5 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -61,3 +61,11 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 24 | 2026-07-01 | Path traversal                | File path traversal, simple case                                              | Apprentice   | N/A          |
 | 25 | 2026-07-01 | Path traversal                | File path traversal, traversal sequences stripped non-recursively             | Practitioner | N/A          |
 | 26 | 2026-07-01 | Path traversal                | File path traversal, traversal sequences stripped recursively                 | Practitioner | N/A          |
+| 27 | 2026-07-02 | Path traversal                | File path traversal, traversal sequences blocked with absolute path bypass    | Practitioner | N/A          |
+| 28 | 2026-07-02 | Path traversal                | File path traversal, traversal sequences stripped Superfluously (URL-decoded) | Practitioner | N/A          |
+| 29 | 2026-07-02 | Path traversal                | File path traversal, validation of file extension bypass with null byte        | Practitioner | N/A          |
+| 30 | 2026-07-02 | OS command injection          | OS command injection, simple case                                             | Apprentice   | N/A          |
+| 31 | 2026-07-02 | OS command injection          | Blind OS command injection with time delays                                    | Practitioner | N/A          |
+| 32 | 2026-07-02 | OS command injection          | Blind OS command injection with output redirection                            | Practitioner | N/A          |
+| 33 | 2026-07-02 | OS command injection          | Blind OS command injection with out-of-band interaction                        | Practitioner | N/A          |
+| 34 | 2026-07-02 | OS command injection          | Blind OS command injection with out-of-band data exfiltration                  | Practitioner | N/A          |
