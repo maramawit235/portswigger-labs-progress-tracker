@@ -1,18 +1,18 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-41-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--09-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-15.0%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-45-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--09-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-16.4%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 11 of 61
-- **Practitioner**: 30 of 174
+- **Practitioner**: 34 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
 
 - **Authentication vulnerabilities**: 9/14 lab
-- **SQL injection**: 14/18 lab
+- **SQL injection**: 18/18 lab
 - **Path traversal**: 6/15 lab
 - **OS command injection**: 5/5 lab
 - **Access control**: 7/13 lab
@@ -77,3 +77,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 39 | 2026-07-09 | Access control                | URL-based access control can be circumvented                                  | Practitioner | N/A          |
 | 40 | 2026-07-09 | Access control                | Method-based access control can be circumvented                               | Practitioner | N/A          |
 | 41 | 2026-07-09 | Access control                | User ID controlled by request parameter                                       | Practitioner | N/A          |
+| 42 | 2026-07-09 | SQL injection                 | SQL injection with filter-bypass via XML encoding                             | Practitioner | N/A          |
+| 43 | 2026-07-09 | SQL injection                 | Blind SQL injection with out-of-band interaction                              | Practitioner | N/A          |
+| 44 | 2026-07-09 | SQL injection                 | Blind SQL injection with out-of-band data exfiltration                        | Practitioner | N/A          |
+| 45 | 2026-07-09 | SQL injection                 | SQL injection vulnerability allowing login bypass (Filter Evasion)            | Practitioner | N/A          |
