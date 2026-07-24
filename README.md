@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-45-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--09-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-16.4%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-52-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--24-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-19.0%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 11 of 61
-- **Practitioner**: 34 of 174
+- **Apprentice**: 12 of 61
+- **Practitioner**: 40 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
@@ -16,6 +16,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Path traversal**: 6/15 lab
 - **OS command injection**: 5/5 lab
 - **Access control**: 7/13 lab
+- **File upload vulnerabilities**: 5/7 lab
+- **Race conditions**: 2/6 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -81,3 +83,10 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 43 | 2026-07-09 | SQL injection                 | Blind SQL injection with out-of-band interaction                              | Practitioner | N/A          |
 | 44 | 2026-07-09 | SQL injection                 | Blind SQL injection with out-of-band data exfiltration                        | Practitioner | N/A          |
 | 45 | 2026-07-09 | SQL injection                 | SQL injection vulnerability allowing login bypass (Filter Evasion)            | Practitioner | N/A          |
+| 46 | 2026-07-22 | File upload vulnerabilities   | Remote code execution via web shell upload                                    | Practitioner | N/A          |
+| 47 | 2026-07-22 | File upload vulnerabilities   | Web shell upload via Content-Type restriction bypass                          | Practitioner | N/A          |
+| 48 | 2026-07-22 | File upload vulnerabilities   | Web shell upload via path traversal                                           | Practitioner | N/A          |
+| 49 | 2026-07-22 | File upload vulnerabilities   | Web shell upload via extension blacklist bypass                               | Practitioner | N/A          |
+| 50 | 2026-07-22 | File upload vulnerabilities   | Web shell upload via obfuscated file extension                                | Practitioner | N/A          |
+| 51 | 2026-07-22 | Race conditions               | Limit overrun race conditions                                                 | Apprentice   | N/A          |
+| 52 | 2026-07-22 | Race conditions               | Bypassing rate limits via race conditions                                     | Practitioner | N/A          |
